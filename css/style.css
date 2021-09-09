@@ -49,24 +49,6 @@ nav li a{
     background-color: red;
 }
 
-
-
-.scarpe-blu .immagine-testo, .scarpe-bianche .immagine-testo, .scarpe-mare .immagine-testo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: yellow;
-    font-size: 30px;
-}
-
-
-img, h2 {
-    width: 500px;
-}
-
-
 .scarpe-bianche{
     position: relative;
     width: 100%;
@@ -81,9 +63,32 @@ img, h2 {
     background-color: yellow;
 }
 
+
+.immagine-testo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: yellow;
+    font-size: 30px;
+}
+
 .scarpe-mare h2{
     color: green;
 }
+
+
+img, h2 {
+    width: 500px;
+}
+
+
+
+
+
+
+
 
 
 
