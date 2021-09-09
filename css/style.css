@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+}
+
+nav{
+    float: right;
+    padding-right: 30px;
+    padding-top: 20px;
+    position:fixed;
+    right: 0px;
+    z-index: 1;
+    
+}
+
+
+nav li{
+    background-color: white ;
+    border-radius: 50%;
+    margin: 5px;
+    display: inline-block;
+    padding: 10px;
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-weight: 900;
+    box-shadow: 1px 1px black;
+
+}
+
+
+nav li a{
+    text-decoration:none;
+}
+
+.clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.scarpe-blu{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+
+
+
+.scarpe-blu .immagine-testo, .scarpe-bianche .immagine-testo, .scarpe-mare .immagine-testo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: yellow;
+    font-size: 30px;
+}
+
+
+img, h2 {
+    width: 500px;
+}
+
+
+.scarpe-bianche{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+}
+
+.scarpe-mare{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: yellow;
+}
+
+.scarpe-mare h2{
+    color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
